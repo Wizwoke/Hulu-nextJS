@@ -5,6 +5,8 @@ import MovieGallery from './MovieGallery';
 const popularURL =
   'https://api.themoviedb.org/3/movie/popular?api_key=be58c092cf553e34a0ec09c347ff66b0';
 
+const test = 'this is just a git Commit teste!';
+
 const Movies = () => {
   const [movies, setMovies] = useState([]);
 
